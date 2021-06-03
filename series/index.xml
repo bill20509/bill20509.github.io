@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Series on Bill&#39;s Blog</title>
-    <link>http://example.org/series/</link>
+    <link>https://bill20509.github.io/series/</link>
     <description>Recent content in Series on Bill&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <webMaster>maxbill20509@gmail.com (Bill Zhong)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
     
-        <atom:link href="http://example.org/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://bill20509.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
 
       

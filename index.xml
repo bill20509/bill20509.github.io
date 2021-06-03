@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Bill&#39;s Blog</title>
-    <link>http://example.org/</link>
+    <link>https://bill20509.github.io/</link>
     <description>Recent content on Bill&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,7 +16,7 @@
     <copyright>©2021, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 05 Mar 2020 14:08:48 +0000</lastBuildDate>
     
-        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://bill20509.github.io/index.xml" rel="self" type="application/rss+xml" />
     
       
       
@@ -43,15 +43,15 @@
       
       <item>
         <title>哈囉你們好</title>
-        <link>http://example.org/posts/test-viz/</link>
+        <link>https://bill20509.github.io/posts/test-viz/</link>
         <pubDate>Mon, 18 Nov 2019 21:00:06 +0900</pubDate>
         <author>maxbill20509@gmail.com (Bill Zhong)</author>
         <atom:modified>Mon, 18 Nov 2019 21:00:06 +0900</atom:modified>
-        <guid>http://example.org/posts/test-viz/</guid>
+        <guid>https://bill20509.github.io/posts/test-viz/</guid>
         <description>digraph G { subgraph cluster_0 { style=filled; color=lightgrey; node [style=filled,color=white]; a0 -&amp;gt; a1 -&amp;gt; a2 -&amp;gt; a3; label = &amp;quot;process #1&amp;quot;; } subgraph cluster_1 { node [style=filled]; b0 -&amp;gt; b1 -&amp;gt; b2 -&amp;gt; b3; label = &amp;quot;process #2&amp;quot;; color=blue } start -&amp;gt; a0; start -&amp;gt; b0; a1 -&amp;gt; b3; b2 -&amp;gt; a3; a3 -&amp;gt; a0; a3 -&amp;gt; end; b3 -&amp;gt; end; start [shape=Mdiamond]; end [shape=Msquare]; }</description>
         
         <dc:creator>Bill Zhong</dc:creator>
-        <media:content url="http://example.orgimages/feature2/graph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://bill20509.github.ioimages/feature2/graph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -75,15 +75,15 @@
       
       <item>
         <title>Wavedrom support</title>
-        <link>http://example.org/posts/test-wavedrom/</link>
+        <link>https://bill20509.github.io/posts/test-wavedrom/</link>
         <pubDate>Mon, 18 Nov 2019 18:00:06 +0900</pubDate>
         <author>maxbill20509@gmail.com (Bill Zhong)</author>
         <atom:modified>Mon, 18 Nov 2019 18:00:06 +0900</atom:modified>
-        <guid>http://example.org/posts/test-wavedrom/</guid>
+        <guid>https://bill20509.github.io/posts/test-wavedrom/</guid>
         <description>{ &amp;quot;signal&amp;quot;: [ {&amp;quot;name&amp;quot;: &amp;quot;CLK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;p.....|...&amp;quot;}, {&amp;quot;name&amp;quot;:&amp;quot;DAT&amp;quot;, &amp;quot;wave&amp;quot;:&amp;quot;x.345x|=.x&amp;quot;, &amp;quot;data&amp;quot;:[&amp;quot;A&amp;quot;,&amp;quot;B&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;D&amp;quot;]}, {&amp;quot;name&amp;quot;: &amp;quot;REQ&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;0.1..0|1.0&amp;quot;}, {}, {&amp;quot;name&amp;quot;: &amp;quot;ACK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;1.....|01.&amp;quot;} ]} </description>
         
         <dc:creator>Bill Zhong</dc:creator>
-        <media:content url="http://example.orgimages/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://bill20509.github.ioimages/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -107,15 +107,15 @@
       
       <item>
         <title>Mermaid support</title>
-        <link>http://example.org/posts/test-mermaid/</link>
+        <link>https://bill20509.github.io/posts/test-mermaid/</link>
         <pubDate>Sun, 17 Nov 2019 12:00:06 +0900</pubDate>
         <author>maxbill20509@gmail.com (Bill Zhong)</author>
         <atom:modified>Sun, 17 Nov 2019 12:00:06 +0900</atom:modified>
-        <guid>http://example.org/posts/test-mermaid/</guid>
+        <guid>https://bill20509.github.io/posts/test-mermaid/</guid>
         <description>graph TD; A--&amp;gt;B; A--&amp;gt;C; B--&amp;gt;D; C--&amp;gt;D; sequenceDiagram participant Alice participant Bob Alice-&amp;gt;John: Hello John, how are you? loop Healthcheck John-&amp;gt;John: Fight against hypochondria end Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail... John--&amp;gt;Alice: Great! John-&amp;gt;Bob: How about you? Bob--&amp;gt;John: Jolly good! graph TD A[Hard] --&amp;gt;|Text| B(Round) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result 1] C --&amp;gt;|Two| E[Result 2] gantt section Section Completed :done, des1, 2014-01-06,2014-01-08 Active :active, des2, 2014-01-07, 3d Parallel 1 : des3, after des1, 1d Parallel 2 : des4, after des1, 1d Parallel 3 : des5, after des3, 1d Parallel 4 : des6, after des4, 1d classDiagram Class01 &amp;lt;|-- AveryLongClass : Cool &amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01 Class09 --&amp;gt; C2 : Where am i?</description>
         
         <dc:creator>Bill Zhong</dc:creator>
-        <media:content url="http://example.orgimages/feature2/workflow.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://bill20509.github.ioimages/feature2/workflow.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -141,15 +141,15 @@
       
       <item>
         <title>魔鬼要來囉</title>
-        <link>http://example.org/posts/test-mathjax/</link>
+        <link>https://bill20509.github.io/posts/test-mathjax/</link>
         <pubDate>Sat, 16 Nov 2019 12:00:06 +0900</pubDate>
         <author>maxbill20509@gmail.com (Bill Zhong)</author>
         <atom:modified>Sat, 16 Nov 2019 12:00:06 +0900</atom:modified>
-        <guid>http://example.org/posts/test-mathjax/</guid>
+        <guid>https://bill20509.github.io/posts/test-mathjax/</guid>
         <description>When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</description>
         
         <dc:creator>Bill Zhong</dc:creator>
-        <media:content url="http://example.orgimages/feature1/infinity.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://bill20509.github.ioimages/feature1/infinity.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
