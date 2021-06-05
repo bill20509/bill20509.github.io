@@ -2,34 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bill20509.github.io/about/</loc>
+    <lastmod>2021-06-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bill20509.github.io/</loc>
-    <lastmod>2019-11-18T21:00:06+09:00</lastmod>
+    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
   </url><url>
     <loc>https://bill20509.github.io/categories/</loc>
-    <lastmod>2019-11-18T21:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://bill20509.github.io/categories/diagram/</loc>
-    <lastmod>2019-11-18T21:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://bill20509.github.io/posts/</loc>
-    <lastmod>2019-11-18T21:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://bill20509.github.io/posts/test-viz/</loc>
-    <lastmod>2019-11-18T21:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://bill20509.github.io/posts/test-wavedrom/</loc>
-    <lastmod>2019-11-18T18:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://bill20509.github.io/tags/diagram/</loc>
-    <lastmod>2019-11-17T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://bill20509.github.io/posts/test-mermaid/</loc>
-    <lastmod>2019-11-17T12:00:06+09:00</lastmod>
-  </url><url>
-    <loc>https://bill20509.github.io/tags/</loc>
-    <lastmod>2019-11-17T12:00:06+09:00</lastmod>
+    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
   </url><url>
     <loc>https://bill20509.github.io/categories/math/</loc>
+    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
+  </url><url>
+    <loc>https://bill20509.github.io/posts/</loc>
     <lastmod>2019-11-16T12:00:06+09:00</lastmod>
   </url><url>
     <loc>https://bill20509.github.io/posts/test-mathjax/</loc>
@@ -38,11 +23,10 @@
     <loc>https://bill20509.github.io/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
   </url><url>
-    <loc>https://bill20509.github.io/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bill20509.github.io/tags/index/</loc>
   </url><url>
     <loc>https://bill20509.github.io/series/</loc>
+  </url><url>
+    <loc>https://bill20509.github.io/tags/</loc>
   </url>
 </urlset>
