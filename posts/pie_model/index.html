@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pie_model – Bill&#39;s Blog</title>
+    <title>PIE Model – Bill&#39;s Blog</title>
     
 
 
@@ -1344,7 +1344,7 @@
 
 
 <meta property="og:site_name" content="Bill&#39;s Blog">
-<meta property="og:title" content="Pie_model">
+<meta property="og:title" content="PIE Model">
 <meta property="og:url" content="https://bill20509.github.io/posts/pie_model/">
 <meta property="og:type" content="article">
 <meta property="og:description" content="">
@@ -1354,7 +1354,7 @@
     <meta property="og:image:url" content="https://bill20509.github.io/images/feature2/graph.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="Bill&#39;s Blog">
-    <meta property="twitter:title" content="Pie_model">
+    <meta property="twitter:title" content="PIE Model">
     <meta property="twitter:description" content="">
   
 
@@ -1393,11 +1393,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Pie_model",
+    "headline": "PIE Model",
     "datePublished": "2021-06-06T07:23:45+08:00",
     "dateModified": "2021-06-06T07:23:45+08:00",
     "url" : "https://bill20509.github.io/posts/pie_model/",
-    "description": "Fault, Error \u0026amp; Failure  Software Fault: A static defect in the software(i.e., defect)  ",
+    "description": "Fault, Error \u0026amp; Failure Software Fault A static defect in the software(i.e., defect) 靜態存在於code中的錯誤 Software Error An incorrect internal state that is the manifestation …",
     "keywords": [""],
     "image" : "https://bill20509.github.io/images/feature2/graph.png",
     "mainEntityOfPage": {
@@ -1669,7 +1669,7 @@
   
   <li  class="is-active" >
     
-      <span>Pie_model</span>
+      <span>PIE Model</span>
     
   </li>
   
@@ -1681,14 +1681,14 @@
   <div class="single ">
     <div class="single__nojs">This page looks best with JavaScript enabled</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">Pie_model</h2>
+    <h2 class="single__title" data-ani="true">PIE Model</h2>
     <h3 class="single__subtitle"></h3>
     <div class="single__meta">
       
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Jun 6, 2021 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;1&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;2&nbsp;min read </span>
   
   <span class="single__info">
     
@@ -1707,8 +1707,70 @@
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
       <h2 id="fault-error--failure">Fault, Error &amp; Failure</h2>
+<h4 id="software-fault">Software Fault</h4>
 <ul>
-<li>Software Fault: A static defect in the software(i.e., defect)</li>
+<li>A static defect in the software(i.e., defect)</li>
+<li>靜態存在於code中的錯誤</li>
+</ul>
+<h4 id="software-error">Software Error</h4>
+<ul>
+<li>An incorrect <strong>internal</strong> state that is the manifestation of some faults</li>
+<li>由fault觸發的錯誤中間狀態</li>
+</ul>
+<h4 id="software-failure">Software Failure</h4>
+<ul>
+<li><strong>External</strong>, incorrect behavior with respect to the requirements of othere description of the expected behavior</li>
+<li>由Error所傳播出去，使測試人員或使用者所觀測到的失效行為</li>
+</ul>
+<h2 id="實例">實例</h2>
+<p><img src="../images/pie_model/test_sample.PNG" alt="test_sample" /></p>
+<ul>
+<li>說明 - 給定input numbers, 算出平均值</li>
+<li>Fault - i的初始值誤設為1(應為0)</li>
+<li>Error - sum誤算為4+5 (應為3+4+5)</li>
+<li>Failure - mean誤算為3 (應為3)</li>
+</ul>
+<h2 id="pie-model">PIE Model</h2>
+<ul>
+<li>首字母P、I、E所組成</li>
+<li>只有達成下面三項，才會得到failure</li>
+</ul>
+<h4 id="executionreachability---fault">Execution/Reachability -&gt; Fault</h4>
+<ul>
+<li>The location or lcations in the program that contain the fault must be reached</li>
+<li>測試必須執行到fault的位置</li>
+</ul>
+<h4 id="infection---error">Infection -&gt; Error</h4>
+<ul>
+<li>The state of the program must be incorrect</li>
+<li>即使執行到fault的位置，也不一定會觸發Error</li>
+<li><img src="../images/pie_model/infection.PNG" alt="test_sample" /></li>
+<li>此例中，即使執行到了fault，但碰巧地沒有觸發error，最終的結果也是正確</li>
+</ul>
+<h4 id="propagation---failure">Propagation -&gt; Failure</h4>
+<ul>
+<li>The infected state must propagate to cause some output of the program to be incorrect</li>
+<li>即使執行到了fault，觸發了error，也可能沒有failure</li>
+<li><img src="../images/pie_model/propagation.PNG" alt="test_sample" /></li>
+<li>Fault - length長度錯誤值 number.length-1 (應為number.length)</li>
+<li>Error - sum值計算錯誤3+5(應為3+5+4)</li>
+<li>Failure - 然後最終碰巧地沒有Failure</li>
+</ul>
+<h2 id="quiz">Quiz</h2>
+<ul>
+<li>Is there is a fault, which cannot be revealed by any test?</li>
+<li>Is it a fault or not a fault?</li>
+<li>我的見解是，這不算fault，因為唯有被測試出來，才能稱之為fault，雞生蛋、蛋生雞的概念</li>
+</ul>
+<h2 id="exercise">Exercise</h2>
+<ul>
+<li>Please constrct a simple program P(with a fault) and 3 tests(t1, t2, t3), s.t.
+<ul>
+<li>t1 executes the fault, but no error</li>
+<li>t2 (executes the fault and) produces an error, but no failure</li>
+<li>t3 produces a failure</li>
+</ul>
+</li>
 </ul>
 
     </article>
@@ -1915,7 +1977,7 @@
       
     
       
-        <a href="https://twitter.com/intent/tweet?text=Pie_model&url=https%3a%2f%2fbill20509.github.io%2fposts%2fpie_model%2f&hashtags=&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://twitter.com/intent/tweet?text=PIE%20Model&url=https%3a%2f%2fbill20509.github.io%2fposts%2fpie_model%2f&hashtags=&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
         </a>
       
@@ -2052,21 +2114,6 @@
 
     <section class="related">
     
-    
-    <h1 class="related__title">
-      <hr class="hr-dots"/>
-      <div>
-        See Also
-      </div>
-      <hr class="hr-dots"/>
-    </h1>
-    <ul class="related-ul">
-        
-        <li>
-          <a href="/posts/test-mathjax/" class="related__link">魔鬼要來囉</a>
-        </li>
-        
-    </ul>
     
   </section>
     <div class="grow"></div>
@@ -2438,7 +2485,31 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="false" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#fault-error--failure">Fault, Error &amp; Failure</a></li>
+    <li><a href="#fault-error--failure">Fault, Error &amp; Failure</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#software-fault">Software Fault</a></li>
+            <li><a href="#software-error">Software Error</a></li>
+            <li><a href="#software-failure">Software Failure</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#實例">實例</a></li>
+    <li><a href="#pie-model">PIE Model</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#executionreachability---fault">Execution/Reachability -&gt; Fault</a></li>
+            <li><a href="#infection---error">Infection -&gt; Error</a></li>
+            <li><a href="#propagation---failure">Propagation -&gt; Failure</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#quiz">Quiz</a></li>
+    <li><a href="#exercise">Exercise</a></li>
   </ul>
 </nav>
   </div>
