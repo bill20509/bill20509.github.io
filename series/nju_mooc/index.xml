@@ -14,11 +14,51 @@
     <managingEditor>maxbill20509@gmail.com (Bill Zhong)</managingEditor>
     <webMaster>maxbill20509@gmail.com (Bill Zhong)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 06 Jun 2021 03:45:45 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jun 2021 07:23:45 +0800</lastBuildDate>
     
         <atom:link href="https://bill20509.github.io/series/nju_mooc/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>PIE Model</title>
+        <link>https://bill20509.github.io/posts/pie_model/</link>
+        <pubDate>Sun, 06 Jun 2021 07:23:45 +0800</pubDate>
+        <author>maxbill20509@gmail.com (Bill Zhong)</author>
+        <atom:modified>Sun, 06 Jun 2021 07:23:45 +0800</atom:modified>
+        <guid>https://bill20509.github.io/posts/pie_model/</guid>
+        <description>Fault, Error &amp;amp; Failure 在軟體與硬體中都有Fault, Error &amp;amp; Failure，此處我們只討論軟體 Software Fault A static defect in the software(i.e., defect) 靜態存在於code中的錯誤 Software Error An incorrect internal state that is the manifestation</description>
+        
+        <dc:creator>Bill Zhong</dc:creator>
+        <media:content url="https://bill20509.github.ioimages/feature2/graph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>testing</category>
+            
+          
+            
+              <category>terminology</category>
+            
+          
+        
+        
+          
+            
+              <category>testing</category>
+            
+          
+        
+        
+          
+            
+              <category>NJU_MOOC</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Testing Terminology</title>
@@ -27,7 +67,7 @@
         <author>maxbill20509@gmail.com (Bill Zhong)</author>
         <atom:modified>Sun, 06 Jun 2021 03:45:45 +0800</atom:modified>
         <guid>https://bill20509.github.io/posts/terminology/</guid>
-        <description>Test Case 有時test case等於test input，端看如何定義 需要描述test case的環境 Testing vs. Debugging Validation vs. Verification Validation 確認SPEC符合客戶的需求 Verification 確認SP</description>
+        <description>Test Case 一個Test Case包含Test Input(測試輸入)、Test Oracle(預期輸出)、Enivironment(測試環境) 有時tes</description>
         
         <dc:creator>Bill Zhong</dc:creator>
         <media:content url="https://bill20509.github.ioimages/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
