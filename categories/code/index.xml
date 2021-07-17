@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>code on Bill&#39;s Blog</title>
+    <link>https://bill20509.github.io/categories/code/</link>
+    <description>Recent content in code on Bill&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>maxbill20509@gmail.com (Bill Zhong)</managingEditor>
+    <webMaster>maxbill20509@gmail.com (Bill Zhong)</webMaster>
+    <copyright>©2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 17 Jul 2021 15:34:36 +0800</lastBuildDate>
+    
+        <atom:link href="https://bill20509.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>LeetCode 1931. Painting a Grid With Three Different Colors</title>
+        <link>https://bill20509.github.io/posts/leetcode_1931/</link>
+        <pubDate>Sat, 17 Jul 2021 15:34:36 +0800</pubDate>
+        <author>maxbill20509@gmail.com (Bill Zhong)</author>
+        <atom:modified>Sat, 17 Jul 2021 15:34:36 +0800</atom:modified>
+        <guid>https://bill20509.github.io/posts/leetcode_1931/</guid>
+        <description>Concept 雖然是Hard，但其實概念不難，難度介於medium~hard，比較要小心的是可能要先做預處理，不然有可能TLE。 在做本題前可以先參考14</description>
+        
+        <dc:creator>Bill Zhong</dc:creator>
+        <media:content url="https://bill20509.github.ioimages/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>leetcode</category>
+            
+          
+            
+              <category>dynamic programming</category>
+            
+          
+        
+        
+          
+            
+              <category>code</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
