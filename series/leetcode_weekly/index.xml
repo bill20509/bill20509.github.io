@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>code on Bill&#39;s Blog</title>
-    <link>https://bill20509.github.io/categories/code/</link>
-    <description>Recent content in code on Bill&#39;s Blog</description>
+    <title>leetcode_weekly on Bill&#39;s Blog</title>
+    <link>https://bill20509.github.io/series/leetcode_weekly/</link>
+    <description>Recent content in leetcode_weekly on Bill&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>maxbill20509@gmail.com (Bill Zhong)</managingEditor>
@@ -16,7 +16,7 @@
     <copyright>©2021, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 25 Jul 2021 19:22:38 +0800</lastBuildDate>
     
-        <atom:link href="https://bill20509.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://bill20509.github.io/series/leetcode_weekly/index.xml" rel="self" type="application/rss+xml" />
     
 
       

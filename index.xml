@@ -14,7 +14,7 @@
     <managingEditor>maxbill20509@gmail.com (Bill Zhong)</managingEditor>
     <webMaster>maxbill20509@gmail.com (Bill Zhong)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 17 Jul 2021 15:34:36 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jul 2021 19:22:38 +0800</lastBuildDate>
     
         <atom:link href="https://bill20509.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,46 @@
         
       
 
+      
+      <item>
+        <title>Leetcode 1947. Maximum Compatibility Score Sum</title>
+        <link>https://bill20509.github.io/posts/leetcode_1947/</link>
+        <pubDate>Sun, 25 Jul 2021 19:22:38 +0800</pubDate>
+        <author>maxbill20509@gmail.com (Bill Zhong)</author>
+        <atom:modified>Sun, 25 Jul 2021 19:22:38 +0800</atom:modified>
+        <guid>https://bill20509.github.io/posts/leetcode_1947/</guid>
+        <description>Concept 先說結論: 1.Backtracking 2.Permutation 1.Backtracking 因為看到Constraints: 1 &amp;lt;= m, n &amp;lt;= 8 在比賽當下第一個想到的是用backtracking 計算次數: m*m*n 先把所有的可能算</description>
+        
+        <dc:creator>Bill Zhong</dc:creator>
+        <media:content url="https://bill20509.github.ioimages/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>leetcode</category>
+            
+          
+            
+              <category>backtracking</category>
+            
+          
+        
+        
+          
+            
+              <category>code</category>
+            
+          
+        
+        
+          
+            
+              <category>leetcode_weekly</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>LeetCode 1931. Painting a Grid With Three Different Colors</title>
@@ -74,6 +114,8 @@
         
         
           
+            
+              <category>leetcode_weekly</category>
             
           
         
